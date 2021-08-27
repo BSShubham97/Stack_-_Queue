@@ -25,14 +25,33 @@ public class StackBuilder {
         if(top==null){
            System.out.println("Stack Empty");
        } else{
+            System.out.println("All elements of Stack: " );
            while(temp!=null){
                System.out.println(temp.data);
                temp=temp.next;
            }
-       }
+       }System.out.println();
     }
 
+public void peek() {
+    if (top == null) {
+        System.out.println("EMPTY LINKEDLIST");
+    } else {
+        System.out.println("Top Most Element: "+top.data+"\n");
 
+    }
+}
+
+    public void pop() {
+
+        if (top == null) {
+            System.out.println("EMPTY STACK");
+        } else {
+        top=top.next;
+
+
+        }
+    }
 
 
 }

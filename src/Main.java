@@ -7,6 +7,9 @@ public class Main {
         stack.push(30);
         stack.push(70);
         stack.display();
+        stack.peek();
+        stack.pop();
+        stack.display();
     }
 
 }
