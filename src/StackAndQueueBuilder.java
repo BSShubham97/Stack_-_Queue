@@ -85,7 +85,7 @@ public void peek() {
         } else{
             System.out.println("All elements of Queue " );
             while(temp!=null){
-                System.out.println(temp.data);
+                System.out.print(temp.data+"\t");
                 temp=temp.next;
             }
         }System.out.println();
