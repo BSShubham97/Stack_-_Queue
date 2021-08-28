@@ -2,14 +2,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        StackBuilder stack = new StackBuilder();
-        stack.push(56);
-        stack.push(30);
-        stack.push(70);
-        stack.display();
-        stack.peek();
-        stack.pop();
-        stack.display();
+        StackAndQueueBuilder queueBuilder = new StackAndQueueBuilder();
+       queueBuilder.enqueue(56);
+       queueBuilder.enqueue(30);
+       queueBuilder.enqueue(70);
+
+       queueBuilder.displayQ();
+
     }
 
 }
